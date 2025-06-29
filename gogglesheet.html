@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gogglesheet.css">
+    <title>book appointment</title>
+</head>
+<body>
+    <div class="container">
+    <form method="post" action="connection.php" autocomplete="off" onsubmit="return validation()" name="Book Appointment">
+        <h4>BOOK Appointment</h4>
+        <input type="number" id="id" name="yourId" placeholder="ID" required>
+        <span id="idd"></span>
+        <input type="text" id="name" name="yourName" placeholder="Name" required>
+        <span id="namee"></span>
+        <input type="number" id="date" name="yourDate" placeholder="Date" required>
+        <span id="datee"></span>
+        <input type="number" id="time" name="yourTime" placeholder="Time" required>
+        <span id="timee"></span>
+        <input type="submit" value="submit" id="submit">
+    </form>
+    </div>
+</body>
+</html>
+
